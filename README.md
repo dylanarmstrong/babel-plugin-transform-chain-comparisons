@@ -3,8 +3,12 @@
 Add chained comparison operators like
 [Python](https://docs.python.org/c/reference/expressions.html#comparisons)
 
-## Setup
+## Install
+```
+npm install @dylanarmstrong/babel-plugin-transform-chain-comparisons
+```
 
+## Setup
 In your `babel.config.json`, place the following:
 
 ```
