@@ -21,6 +21,11 @@ if (a < b < c) {}
 if (a < b && b < c) {}
 
 // Original
+if (a != b != c) {}
+// Transform
+if (a != b && b != c) {}
+
+// Original
 if (a < f() < g()) {}
 // Transform
 const ref1 = f();
@@ -28,6 +33,7 @@ if (a < ref1 && ref1 < g()) {}
 
 // Original
 if (f() < g() < h()) {}
+// Transform
 const ref1 = g();
 if (f() < ref1 && ref1 < h()) {}
 ```
