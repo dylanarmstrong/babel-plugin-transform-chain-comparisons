@@ -1,7 +1,7 @@
 # babel-plugin-transform-chain-operators
 
 Add chained comparison operators like
-[Python](https://docs.python.org/c/reference/expressions.html#comparisons)
+[Python](https://docs.python.org/3/reference/expressions.html#comparisons)
 
 ## Install
 ```
