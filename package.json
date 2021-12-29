@@ -1,0 +1,38 @@
+{
+  "version": "0.0.1",
+  "name": "@dylanarmstrong/babel-plugin-transform-chain-comparisons",
+  "description": "Transform chained comparisons into && statements",
+  "license": "ISC",
+  "author": "Dylan Armstrong <dylan@dylan.is>",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylanarmstrong/babel-plugin-transform-chain-comparisons"
+  },
+  "keywords": [
+    "babel-plugin",
+    "chain",
+    "comparison",
+    "comparator",
+    "python"
+  ],
+  "bugs": {
+    "url": "https://github.com/dylanarmstrong/babel-plugin-transform-chain-comparisons/issues"
+  },
+  "homepage": "https://github.com/dylanarmstrong/babel-plugin-transform-chain-comparisons",
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/helper-plugin-utils": "^7.16.5"
+  },
+  "devDependencies": {
+    "@babel/helper-plugin-test-runner": "^7.16.5",
+    "jest": "^27.4.5"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  }
+}
